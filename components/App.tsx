@@ -7,6 +7,7 @@ import { Box } from "@mui/material";
 import Grid from '@mui/material/Unstable_Grid2';
 import { useSelector } from "react-redux"
 import { createTheme, CssBaseline, ThemeProvider } from "@mui/material"
+import Add from "./Add/Add";
 
 
 
@@ -49,6 +50,7 @@ const App = () => {
                         </Grid>
 
                     </Grid>
+                    <Add/>
                 </Box>
             </ThemeProvider>
         </>
