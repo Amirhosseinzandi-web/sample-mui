@@ -86,7 +86,6 @@ const Navbar: React.FC = () => {
                             </MenuItem>
                             <Divider />
                             <MenuItem
-                            // onClick={handleClose}
                             >
                                 <ListItemIcon>
                                     <PersonAdd fontSize="small" />
@@ -94,7 +93,6 @@ const Navbar: React.FC = () => {
                                 Add another account
                             </MenuItem>
                             <MenuItem
-                            // onClick={handleClose}
                             >
                                 <ListItemIcon>
                                     <Settings fontSize="small" />
@@ -102,7 +100,6 @@ const Navbar: React.FC = () => {
                                 Settings
                             </MenuItem>
                             <MenuItem
-                            // onClick={handleClose}
                             >
                                 <ListItemIcon>
                                     <Logout fontSize="small" />
